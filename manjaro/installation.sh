@@ -4,7 +4,7 @@ ping 8.8.8.8 -c 4
 
 echo ""
 echo "Press ENTER to install all packages through pacman"
-echo "Command: pacman -S steam wine ntfs-3g base-devel git chromium discord lutris spotify camera gimp python3-pip openshot neofetch bleachbit"
+echo "Command: pacman -S steam wine ntfs-3g base-devel git chromium discord lutris gimp openshot neofetch bleachbit python-pip"
 read
 sudo pacman -S steam wine ntfs-3g base-devel git chromium discord lutris gimp openshot neofetch bleachbit python-pip
 
@@ -23,6 +23,6 @@ makepkg si
 
 echo ""
 echo "Press ENTER to install all packages with yay"
-echo "Command: yay -S code etcher obs-studio openshot simplenote-electron-bin"
+echo "Command: yay -S code etcher obs-studio openshot simplenote-electron-bin spotify"
 read
 yay -S code etcher obs-studio openshot simplenote-electron-bin spotify
