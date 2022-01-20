@@ -6,7 +6,7 @@ echo ""
 echo "Press ENTER to install all packages through pacman"
 echo "Command: pacman -S steam wine ntfs-3g base-devel git chromium discord lutris gimp openshot neofetch bleachbit python-pip"
 read
-sudo pacman -S steam wine ntfs-3g base-devel git chromium discord lutris gimp openshot neofetch bleachbit python-pip audacity qbittorrent
+sudo pacman -S steam wine ntfs-3g base-devel git chromium discord lutris gimp openshot neofetch bleachbit python-pip audacity
 
 echo ""
 echo "Type in your username. MUST be your username!"
