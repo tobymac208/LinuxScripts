@@ -10,7 +10,7 @@ read
 # install yay
 cd /opt
 sudo git clone https://aur.archlinux.org/yay-git.git
-sudo chown -R <"$username">:<"$username"> ./yay-git
+sudo chown -R <${username}>:<${username}> ./yay-git
 cd yay-git
 makepkg si
 # done
