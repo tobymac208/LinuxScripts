@@ -5,7 +5,8 @@ sudo pacman -S steam wine ntfs-3g base-devel git chromium discord lutris spotify
 
 echo "Type in your username. MUST be your username!"
 read username
-echo "Is this your username -----> ${username} ?"
+echo "Is this your username -----> ${username} ? Press ENTER or Ctrl + C to quit."
+read
 # install yay
 cd /opt
 sudo git clone https://aur.archlinux.org/yay-git.git
