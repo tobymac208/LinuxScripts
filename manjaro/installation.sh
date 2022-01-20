@@ -1,3 +1,8 @@
+echo "I'm going to ping Google's DNS server to test your network connection. Press ENTER to do this."
+read
+ping 8.8.8.8 -c 4
+
+echo ""
 echo "Press ENTER to install all packages through pacman"
 echo "Command: pacman -S steam wine ntfs-3g base-devel git chromium discord lutris spotify camera gimp python3-pip openshot neofetch bleachbit"
 read
@@ -21,4 +26,3 @@ echo "Press ENTER to install all packages with yay"
 echo "Command: yay -S code etcher obs-studio openshot simplenote-electron-bin"
 read
 yay -S code etcher obs-studio openshot simplenote-electron-bin
-
