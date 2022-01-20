@@ -3,6 +3,7 @@ echo "Command: pacman -S steam wine ntfs-3g base-devel git chromium discord lutr
 read
 sudo pacman -S steam wine ntfs-3g base-devel git chromium discord lutris spotify camera gimp python3-pip openshot neofetch bleachbit
 
+echo ""
 echo "Type in your username. MUST be your username!"
 read username
 echo "Is this your username -----> ${username} ? Press ENTER or Ctrl + C to quit."
@@ -15,6 +16,7 @@ cd yay-git
 makepkg si
 # done
 
+echo ""
 echo "Press ENTER to install all packages with yay"
 echo "Command: yay -S code etcher obs-studio openshot simplenote-electron-bin"
 read
