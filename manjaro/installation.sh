@@ -4,7 +4,7 @@ ping 8.8.8.8 -c 4
 
 echo ""
 echo "Press ENTER to install all packages through pacman"
-echo "Command: pacman -S steam wine ntfs-3g base-devel git chromium discord lutris gimp openshot neofetch bleachbit python-pip"
+echo "Command: pacman -S steam wine ntfs-3g base-devel git chromium discord lutris gimp openshot neofetch bleachbit python-pip audacity"
 read
 sudo pacman -S steam wine ntfs-3g base-devel git chromium discord lutris gimp openshot neofetch bleachbit python-pip audacity
 
