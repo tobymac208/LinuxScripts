@@ -21,7 +21,7 @@ makepkg -si
 echo ""
 echo "Press ENTER to install all packages with yay"
 echo "Note: cat the script to see what will be installed."
-yay -S code etcher obs-studio openshot simplenote-electron-bin spotify gnome-books nmap
+yay -S code etcher obs-studio openshot simplenote-electron-bin spotify calibre nmap
 
 echo ""
 echo "Generate ssh key."
