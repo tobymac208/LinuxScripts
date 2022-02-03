@@ -1,8 +1,8 @@
 echo ""
 echo "Press ENTER to install all packages through pacman"
-echo "Command: pacman -S steam wine ntfs-3g base-devel git chromium discord lutris gimp openshot neofetch cmatrix bleachbit python-pip audacity npm"
+echo "Note: cat the script to see what will be installed."
 read
-sudo pacman -S steam wine ntfs-3g base-devel git chromium discord lutris gimp openshot neofetch cmatrix bleachbit python-pip audacity go npm traceroute
+sudo pacman -S steam wine ntfs-3g base-devel git chromium discord lutris gimp openshot neofetch cmatrix bleachbit python-pip audacity go npm traceroute chromium
 
 echo ""
 echo "Type in your username. MUST be your username!"
@@ -20,7 +20,7 @@ makepkg -si
 
 echo ""
 echo "Press ENTER to install all packages with yay"
-echo "Command: yay -S code etcher obs-studio openshot simplenote-electron-bin spotify"
+echo "Note: cat the script to see what will be installed."
 yay -S code etcher obs-studio openshot simplenote-electron-bin spotify gnome-books nmap
 
 echo ""
